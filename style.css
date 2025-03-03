@@ -665,3 +665,64 @@ footer>div:nth-child(4){
 .addingProductToCart:hover{
     cursor: pointer;
 }
+
+@media (max-width: 766px) {
+    header{
+        height: 4vh;
+        grid-template-columns: 15vh 0.1vh 20vh 22vh 20vh;
+    }
+    header>div>img{
+        width: 100%;
+    }
+    .searchAddress{
+        height: 40%;
+    }
+    header>div:nth-child(3) svg{
+        top: 5vh;
+    }
+    header>div:nth-child(5) svg{
+        left: 1.4vw;
+    }
+    header>div{
+        height: 12vh;
+    }
+    .searchAddress{
+        opacity: 0;
+    }
+    .loginButton{
+        height: 12vh;
+    }
+    .newCart{
+        height: 12vh;
+    }
+    .cart{
+        width: 70%;
+    }
+    .cartProduct{
+        height: 14vh;
+    }
+    .totalAmount{
+        width: 70%;
+    }
+    footer{
+        grid-template-rows: 8vh 30vh 1vh 20vh;
+    }
+    footer>div:nth-child(2)>div:nth-child(2){
+        margin-left: 20vw;
+    }
+    footer>div:nth-child(2)>div:nth-child(3){
+        margin-left: 40vw;
+    }
+    footer>div:nth-child(1)>div:nth-child(2){
+        display: none;
+    }
+    footer>div:nth-child(2)>div:nth-child(4){
+        display: none;
+    }
+    footer>div:nth-child(2)>div:nth-child(5){
+        display: none;
+    }
+    footer>div:nth-child(2)>div:nth-child(6){
+        display: none;
+    }
+}
