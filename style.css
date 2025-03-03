@@ -725,4 +725,7 @@ footer>div:nth-child(4){
     footer>div:nth-child(2)>div:nth-child(6){
         display: none;
     }
+    .loginButton{
+        display: none;
+    }
 }
